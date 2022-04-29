@@ -1,0 +1,100 @@
+/* Colors and fonts */
+body{
+	background: rgb(230, 230, 230);
+	color: rgb(50, 50, 50) ;
+	font-family: courier;
+
+}
+H1, H2, H3 {
+	font-family: 'Akshar', sans-serif;
+}
+
+H1{
+	color: red;	
+	font-weight:500;
+	font-size:30px;
+	letter-spacing: 1px;
+}
+H2{
+	color: rgb(100, 100, 100);	
+	font-weight:400;
+	font-size:24px;
+}
+a{
+	text-decoration: none;
+	color: green;
+
+}
+a:hover {
+	color: blue;
+}
+
+li{
+	color: purple;
+	font-size: 30px;
+}
+
+/* Custom desing with class */ 
+.container{
+    padding: 60px;
+    margin: 50px;   
+}
+
+@media	(max-with :760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media	(max-with :500px) {
+	.container{
+		width: 400px;
+	}
+}
+	
+
+
+.class-designer {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px blue;
+	border-radius: 10px;
+	margin: 30px 120px ;
+	text-align: center; 
+}
+
+.image-circle {
+	border-radius: 30px;
+}
+
+.btn-blue {
+ 	background-color: yellow;
+ 	color: green;
+ 	padding: 10px 20px;
+ 	border-radius: 10px;
+}
+
+.btn-blue:hover{
+	background-color: blue;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline; 
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom:40px ;
+}
+
+
+
+
